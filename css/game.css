@@ -1,0 +1,28 @@
+.background    { background: linear-gradient(rgb(92, 180, 204),rgb(0,85,176));
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.rocks { background-image: url(rocks.png);
+         background-repeat: none;}
+.wall { background-image: url(wall.png);   }
+.loseScreen {background-image: url(loseScreen.png);
+          background-repeat: none;}
+.shark { background-image: url(shark.png);
+  background-repeat: none;}
+.star {background-image: url(star.png);
+  background-repeat: none;}
+
+.actor { position: absolute;  }
+.coin { background-image: url(coin.png);
+  background-repeat: none; }
+.player { 
+  background-image: url(fish-player.png);
+background-repeat: none;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
