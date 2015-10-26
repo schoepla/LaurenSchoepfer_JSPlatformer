@@ -536,8 +536,8 @@ function runGame(plans, Display) {
           var winImage = document.createElement('img');
           var winSource = document.getElementById('winScreen');
             //show You Lose screen
-          winImage.src = 'css/winScreen.png';
-          winSource.appendChild(winImage);       
+          //winImage.src = 'css/winScreen.png';
+          //winSource.appendChild(winImage);       
         //console.log("You win!");
     });
 };  
